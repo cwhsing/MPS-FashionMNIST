@@ -12,7 +12,7 @@ Data: dataset/fdata_57.npy
 Shape of fdata_57.npy: (14000, 28, 28)  
 
 Label: dataset/flabel_57.npy  
-Shape of flabel_57.npy: (14000)
+Shape of flabel_57.npy: (14000)  
 *notice: the labels are changed to 0 & 1 instead of the original 5 & 7
 
 Code example of loading the data into torch tensor:
