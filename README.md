@@ -7,7 +7,7 @@ Each class contains 6000 training and 1000 test data.
 
 ![Image 1](https://raw.githubusercontent.com/lmcinnes/umap/master/images/umap_example_fashion_mnist1.png)
 
-## Binary (class 5 & 7)
+## Binary Data (class 5 & 7)
 - Data: **dataset/fdata_57.npy**  
 shape of fdata_57.npy: (14000, 28, 28)  
 
@@ -35,7 +35,7 @@ x_test[:1000]: class 0, x_test[1000:]: class 1
 y_test[:1000]: class 0, y_test[1000:]: class 1
 ```
    
-## Ternary (class 5 & 7 & 9)
+## Ternary Data (class 5 & 7 & 9)
 - Data: **dataset/fdata_579.npy**  
 shape of fdata_579.npy: (21000, 28, 28)  
 
@@ -67,7 +67,7 @@ y_test[:1000]: class 0, y_test[1000:2000]: class 1, y_test[2000:3000]: class 2
 Judging from the UMAP above, I assume that class 5 & 7 will make the problem complex enough.
 
 ## Notice
-***Since the data are placed in order, you have to shuffle them first before training***
+***Since the data are placed in order, you have to shuffle them first before training.***
 
 ## Binary Classification (TTN-MPS, N=49, chi=2)
 **parameter count = 686**
