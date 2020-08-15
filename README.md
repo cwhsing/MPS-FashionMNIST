@@ -68,3 +68,9 @@ Judging from the UMAP above, I assume that class 5 & 7 will make the problem com
 
 ## Notice
 ***Since the data are placed in order, you have to shuffle them first before training***
+
+## Binary Classification (TTN-MPS, N=49, chi=2)
+**parameter count = 686**
+
+## Ternary Classification (TTN-MPS, N=49, chi=2)
+**parameterr count = 686**
