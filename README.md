@@ -7,7 +7,7 @@ Each class contains 6000 training and 1000 test data.
 
 ![Image 1](https://raw.githubusercontent.com/lmcinnes/umap/master/images/umap_example_fashion_mnist1.png)
 
-### Binary (class 5 & 7)
+## Binary (class 5 & 7)
 - Data: **dataset/fdata_57.npy**  
 shape of fdata_57.npy: (14000, 28, 28)  
 
@@ -30,11 +30,11 @@ y_train, y_test = torch.tensor(y[:12000]), torch.tensor(y[12000:])
 x_train[:6000]: class 0, x_train[6000:]: class 1  
 x_test[:1000]: class 0, x_test[1000:]: class 1  
    
-### Ternary (class 5 & 7 & 9)
-- Data: dataset/fdata_579.npy  
+## Ternary (class 5 & 7 & 9)
+- Data: **dataset/fdata_579.npy**  
 Shape of fdata_579.npy: (21000, 28, 28)  
 
-- Label: dataset/flabel_579.npy  
+- Label: **dataset/flabel_579.npy**  
 Shape of flabel_579.npy: (21000)  
 *notice: the labels are changed to **0 & 1 & 2** instead of the original 5 & 7 & 9*  
 
