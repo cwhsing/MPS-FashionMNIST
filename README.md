@@ -26,3 +26,7 @@ x_train, x_test = torch.tensor(x[:12000]), torch.tensor(x[12000:])
 y_train, y_test = torch.tensor(y[:12000]), torch.tensor(y[12000:])
 ```
 
+Both data and label are placed in order of class 0 & 1.  
+x_train[:6000] 
+
+### Ternary (class 5 & 7 & 9)
