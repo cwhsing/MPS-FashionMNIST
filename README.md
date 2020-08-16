@@ -63,8 +63,8 @@ x_test[:1000]: class 0, x_test[1000:2000]: class 1, x_test[2000:3000]: class 2
 y_test[:1000]: class 0, y_test[1000:2000]: class 1, y_test[2000:3000]: class 2
 ```
 
-- You can customized another binary dataset comprising only class 7 & 9 or class 5 & 9 from this ternary one.  
-Judging from the UMAP above, I assume that class 5 & 7 will make the problem complex enough.
+- You can customize another binary dataset comprising only class 7 & 9 or class 5 & 9 from this ternary one.  
+- Judging from the UMAP above, I assume that class 5 & 7 will make the problem complex enough.
 
 ## Notice
 ***Since the data are placed in order, you have to shuffle them first before training.***
