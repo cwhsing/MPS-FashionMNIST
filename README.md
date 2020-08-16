@@ -72,5 +72,10 @@ Judging from the UMAP above, I assume that class 5 & 7 will make the problem com
 ## Binary Classification (TTN-MPS, N=49, chi=2)
 **parameter count = 686**
 
+![Image 2](https://raw.githubusercontent.com/cwhsing/MPS-FashionMNIST/master/plot/fmnist57_chi2.png)
+
 ## Ternary Classification (TTN-MPS, N=49, chi=2)
 **parameterr count = 686**
+
+![Image 3](https://raw.githubusercontent.com/cwhsing/MPS-FashionMNIST/master/plot/fmnist579_chi2.png)
+
