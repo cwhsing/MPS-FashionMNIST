@@ -22,8 +22,8 @@ import torch
 
 x, y = np.load('fdata_57.npy'), np.load('flabel_57.npy')
 
-x_train, x_test = torch.tensor(x[:12000]), torch.tensor(x[12000:])
-y_train, y_test = torch.tensor(y[:12000]), torch.tensor(y[12000:])
+x_train, x_test = torch.tensor(x[:12000])/255, torch.tensor(x[12000:])/255
+y_train, y_test = torch.tensor(y[:12000])/255, torch.tensor(y[12000:])/255
 ```
 
 **Both data and label are placed in the order of class 0 & 1.**  
@@ -50,8 +50,8 @@ import torch
 
 x, y = np.load('fdata_579.npy'), np.load('flabel_579.npy')
 
-x_train, x_test = torch.tensor(x[:18000]), torch.tensor(x[18000:])
-y_train, y_test = torch.tensor(y[:18000]), torch.tensor(y[18000:])
+x_train, x_test = torch.tensor(x[:18000])/255, torch.tensor(x[18000:])/255
+y_train, y_test = torch.tensor(y[:18000])/255, torch.tensor(y[18000:])/255
 ```
 
 **Both data and label are placed in the order of class 0 & 1 & 2**  
